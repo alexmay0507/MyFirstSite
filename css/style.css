@@ -1,0 +1,222 @@
+@font-face {
+    font-family: 'Flange BQ';
+    src: url(../fonts/FlangeBQ.TTF)
+}
+
+@font-face {
+    font-family: 'Franklin Gothic Heavy'sans-serif;
+    src: url(../fonts/FTLTLT.TTF)
+}
+
+body {
+    background-color: #4e4e4e;
+    font-family: 'Vollkorn SC', sans-serif;
+}
+
+
+/*Шапка*/
+.main-title {
+    background-image: url(../img/background_main.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Меню*/
+.menu-list {
+    margin: auto;
+    padding-top: 20px;
+    /*width: 100%;
+    justify-content: center;*/
+}
+
+.menu-list li {
+    padding: 0px 70px;
+    font-size: 25px;
+}
+
+
+
+.menu-list a {
+    color: #fff !important;
+}
+
+.menu-list a:hover {
+
+    color: gold !important;
+}
+
+.show-menu {
+    text-align: right;
+    margin-right: -30px;
+
+
+}
+
+
+.burger {
+    background-color: #ffffff;
+}
+
+
+
+/*Контент шапки*/
+
+.my-block-one {
+    padding-top: 80px;
+    padding-bottom: 200px;
+}
+
+.ava {
+    height: 400px;
+
+}
+
+
+.row1 {
+    background-color: rgba(159, 159, 159, 0.15);
+    border-radius: 40px;
+    min-width: 90%;
+}
+
+.nickname {
+
+    font-family: "Flange BQ";
+    font-size: 130px;
+    font-style: normal;
+    color: #FFC700
+}
+
+
+.title-name {
+    font-size: 150px;
+    display: flex;
+    justify-content: center;
+
+
+}
+
+.title-surname {
+    font-size: 200px;
+    display: flex;
+    justify-content: center;
+    margin-top: -120px;
+
+}
+
+.line-decoration {
+    display: flex;
+    border-top: 3px solid #838383;
+    border-bottom: 3px solid #838383;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.present {
+    display: flex;
+    justify-content: center;
+    margin-top: -25px;
+    font-family: "franklin gothic heavy";
+}
+
+.foto-text {
+    font-size: 40px;
+    color: #D66969;
+}
+
+.union-text {
+    font-size: 40px;
+    color: #9FD3CD;
+}
+
+.design-text {
+    font-size: 40px;
+    color: #CA89E0;
+}
+
+
+/*Мэйн*/
+.main-bg {
+    background: #414141;
+    background-image: url(../img/bg_3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 0%;
+    
+
+    /*    Портфолио*/
+
+}
+
+.portfolio-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Vollkorn SC";
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+/*Карусель*/
+.mycrsl {
+    height: 100% !important;
+    width: 100%;
+    margin: auto;
+    border-radius: 40px;
+}
+
+
+.video {
+    padding: 10px;
+
+}
+
+/*Раздел Обо мне*/
+.about-bg {
+    margin: auto;
+    width: 100%;
+    background-color: #4149a2;
+    min-height: 2000px;
+}
+
+.about-title {
+    display: flex;
+    justify-content: center;
+    font-family: "Vollkorn SC";
+    font-size: 50px;
+    color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.about-text {
+    color: #fff;
+    font-size: 20px;
+}
+
+/*Медиазапрос*/
+@media (min-width:1900px){
+    
+    .main-title {
+        padding-bottom:  240px;
+    }
+    .my-block-one {
+    margin-top: 10%;
+    }
+}
+@media (min-width:1080px){
+    
+    .main-title {
+        padding-bottom:  240px;
+    }
+    
+}
+
+@media (max-width:575px) {
+
+    .ava {
+        display: none;
+    }
+
+}
