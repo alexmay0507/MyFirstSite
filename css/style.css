@@ -196,6 +196,7 @@ body {
 }
 
 /*Медиазапрос*/
+/*
 @media (min-width:1900px){
     
     .main-title {
@@ -212,6 +213,7 @@ body {
     }
     
 }
+*/
 
 @media (max-width:575px) {
 
