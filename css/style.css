@@ -202,23 +202,30 @@ body {
 /*Медиазапрос*/
 
 
-@media(max-width:375px) {
+@media(max-width:240px) {
 
     .title-name {
-        font-size: 100px;
-        padding-bottom: 40px;
+        font-size: 70px;
+        padding-bottom: 70px;
     }
 
     .title-surname {
-        font-size: 140px;
+        font-size: 80px;
     }
 
     .present-title {
 
-        font-size: 30px;
+        font-size: 15px;
 
     }
-
+    
+    .line-decoration {
+    display: flex;
+    border-top: 3px solid rgba(131, 131, 131, 0);
+    border-bottom: 3px solid rgba(131, 131, 131, 0);
+    margin-bottom: 10px;
+}
+    
 
 }
 
