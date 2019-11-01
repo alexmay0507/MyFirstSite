@@ -208,40 +208,7 @@ body {
 
 /*Медиазапрос*/
 
-
-@media (max-width: 400px) {
-    
-.title-name {
-    display: flex;
-    justify-content: center;
-    font-size: 90px;
-
-
-}
-
-.title-surname {
-    font-size: 150px;
-    display: flex;
-    justify-content: center;
-    margin-top: -75px;
-
-}
-
-.present-title {
-
-    font-size: 30px;
-
-}
-*/
-
-
-
-
-
-
-
-
-@media (min-width: 278px) {
+@media (max-width: 454px) {
     
 .title-name {
     display: flex;
@@ -255,7 +222,7 @@ body {
     font-size: 110px;
     display: flex;
     justify-content: center;
-    margin-top: -45px;
+    margin-top: -65px;
 
 }
 
@@ -264,6 +231,15 @@ body {
     font-size: 20px;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
