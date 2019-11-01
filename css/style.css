@@ -223,30 +223,37 @@ body {
         display: flex;
         border-top: 3px solid rgba(131, 131, 131, 0);
         border-bottom: 3px solid rgba(131, 131, 131, 0);
-        margin-bottom: 10px;
+        margin-bottom: 20px;
     }
+
 
 
 }
 
 @media(min-width:375px) {
 
-  .title-name {
-    font-size: 130px;
-    justify-content: center;
-}
-    .title-surname {
-    font-size: 150px;
-    display: flex;
-    justify-content: center;
-    margin-top: -100px;
+    .title-name {
+        font-size: 130px;
+        justify-content: center;
+    }
 
-}
-    
-    
-    
-    
-    
+    .title-surname {
+        font-size: 150px;
+        display: flex;
+        justify-content: center;
+        margin-top: -100px;
+        padding: 10px;
+
+    }
+
+    .present-title {
+
+        font-size: 30px;
+
+    }
+
+
+
 }
 
 
