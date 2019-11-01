@@ -208,7 +208,7 @@ body {
 
 /*Медиазапрос*/
 
-@media screen and (max-width: 454px) {
+@media screen and (max-width: 500px) {
     
 .title-name {
     display: flex;
@@ -248,7 +248,48 @@ body {
     
     
 }
+/*
+@media screen and (max-width: 250px) {
+    
+.title-name {
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
 
+
+}
+
+.title-surname {
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    margin-top: -65px;
+
+}
+
+.present-title {
+
+    font-size: 18px;
+
+}
+
+
+
+.main-title {
+    height: 800px;
+    }
+
+
+
+
+
+*/
+
+
+
+    
+    
+}
 @media (min-width:1900px) {
 
     .main-title {
