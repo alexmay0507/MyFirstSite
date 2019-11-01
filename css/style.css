@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'Flange BQ';
+    font-family: 'Flange BQ' sans-serif;
     src: url(../fonts/FlangeBQ.TTF)
 }
 
@@ -81,7 +81,7 @@ body {
 
 .nickname {
 
-    font-family: "Flange BQ" ;
+    font-family: "Flange BQ"   ;
     font-size: 130px;
     font-style: normal;
     color: #FFC700
@@ -135,10 +135,9 @@ body {
 /*Мэйн*/
 .main-bg {
     background: #414141;
-    background-image: url(../img/bg_3.jpg);
+    background-image: url(../img/bg_2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% 0%;
+    background-position: 50% -380%;
 
 
     /*    Портфолио*/
