@@ -208,7 +208,7 @@ body {
 
 /*Медиазапрос*/
 
-@media (max-width: 454px) {
+@media screen and (max-width: 454px) {
     
 .title-name {
     display: flex;
