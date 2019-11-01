@@ -222,6 +222,26 @@ body {
     }
     
 }
+@media (max-width:320px){
+    
+    .title-name {
+        display: flex;
+        font-size: 100px
+        
+    }
+    
+    .title-surname {
+        display: flex;
+        margin-top: -70px;
+        font-size: 140px
+        
+    }
+    
+    .present-title {
+        font-size: 20px;
+    }
+    
+}
 
 
 @media (min-width:1900px) {
