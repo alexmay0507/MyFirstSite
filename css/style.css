@@ -75,7 +75,7 @@ body {
 .row1 {
     background-color: rgba(159, 159, 159, 0.15);
     border-radius: 40px;
-    border: 2px solid red;
+    border: 2px solid rgba(255, 194, 194, 0.24);
 }
 
 .nickname {
@@ -203,37 +203,6 @@ body {
 
 
 
-
-
-}
-
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px){
- 
-
-
-    .title-name {
-        font-size: 130px;
-        justify-content: center;
-    }
-
-    .title-surname {
-        font-size: 150px;
-        display: flex;
-        justify-content: center;
-        margin-top: -100px;
-        padding: 10px;
-
-    }
-
-    .present-title {
-
-        font-size: 30px;
-
-    }
-
-
-
-}
 
 
 @media (min-width:1900px) {
