@@ -245,7 +245,7 @@ body {
     
     
 }
-@media (min-width:1500px) {
+@media (max-width:1500px) {
 
     .main-title {
         padding-bottom: 240px;
