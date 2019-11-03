@@ -70,6 +70,7 @@ body {
 .ava {
     height: 400px;
 
+
 }
 
 
@@ -194,7 +195,7 @@ body {
 .foto-box img {
     width: 100%;
     border-radius: 20px;
-   
+
 }
 
 /*Текст*/
@@ -205,12 +206,14 @@ body {
     color: #fff;
 
 }
+
 .text-about {
     display: inline-block;
     text-align: center;
-    
-    
+
+
 }
+
 .Welcome {
     font-size: 30px;
     border-bottom: 2px solid #ffffff;
@@ -237,28 +240,29 @@ body {
 .five {
     padding-left: 2px;
     padding-right: 2px;
-    color:#FFA857
-    
+    color: #FFA857
 }
+
 .about-2 {
 
     font-size: 18px;
-    text-align: 
+    text-align:
 }
+
 .about-3 {
 
     font-size: 18px;
     padding-bottom: 12px;
-    border-bottom: 2px solid ;
+    border-bottom: 2px solid;
     border-bottom-style: dashed;
 }
 
 .alive {
-    color:#7EFF8B;    
+    color: #7EFF8B;
 }
 
 .feel {
-    
+
     color: #FFE600;
 }
 
@@ -268,32 +272,33 @@ body {
     text-align: justify;
     padding-top: 12px;
 }
+
 .mcite {
     padding: 7px;
 }
 
-.colorful{
-    
-    color:#FF83DC;
+.colorful {
+
+    color: #FF83DC;
 }
 
 .dynamic {
-    color:#90E1FB;
+    color: #90E1FB;
 
-    
+
 }
 
 .four {
-    
-    color:#FFDA58;
+
+    color: #FFDA58;
 }
 
 .risk {
-    color:#FF6666;
+    color: #FF6666;
 }
 
 .deadline {
-    
+
     color: #B4FF55;
 }
 
@@ -357,11 +362,11 @@ body {
     }
 }
 
-    
-    
-    
-    
-    
+
+
+
+
+
 }
 
 @media (min-width:1080px) {
@@ -374,28 +379,11 @@ body {
 
 
 
-   
 
-   @media (min-width:992px){
-    
-    
- .my-foto{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    object-position: -385px 0px;
-    border-radius: 20px;
-     }
-    }
-
-   
-}
-@media (min-width:575px) {
+@media (max-width:575px) {
 
     .ava {
-        position: absolute;
-        left: 100px;
-        display: none; ;
+        display: none;
     }
 
 }
