@@ -319,7 +319,27 @@ body {
     color: #B4FF55;
 }
 
+.mc-end {
+    
+    font-size: 19px;
+}
 
+.mycite-end {
+    text-align: center;
+    font-family: "vollkorn sc";
+    font-size: 20px;
+    border-top: 2px solid rgb(255, 255, 255);    
+    border-top-style: dotted;
+    margin-top: 7px;
+    
+}
+
+.experience {
+    
+    color:#ffea74;
+    border-bottom: 2px solid red;
+    
+}
 
 
 
