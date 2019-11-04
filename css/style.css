@@ -325,8 +325,8 @@ body {
 }
 
 .mycite-end {
+    font-family: "vollkorn sc" ;
     text-align: center;
-    font-family: "vollkorn sc";
     font-size: 20px;
     border-top: 2px solid rgb(255, 255, 255);    
     border-top-style: dotted;
