@@ -216,7 +216,7 @@ body {
 
 /*Текст cверху цитаты*/
 .about-square {
-    background-color: rgba(0, 0, 0, 0.45);
+    background-color: rgba(255, 252, 252, 0.1);
     border-radius: 20px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
@@ -275,65 +275,124 @@ body {
 
 
 
-    /*Цитата*/
-    
-    .mycite {
+/*Цитата*/
 
-        display:block;
-        font-family: 'Oswald', sans-serif;
-        font-style: italic;
-        font-weight: 300;
-        font-size: 20px;
-        margin:auto ;
+.mycite {
 
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    margin: auto;
+
+}
+
+.dynamic {
+    color: aqua;
+
+
+}
+
+.four {
+
+    color: #FFDA58;
+}
+
+
+.happy {
+
+
+    color: #B4FF55;
+}
+
+/*Что я умею*/
+
+.skills {
+    font-family: "franklin gothic heavy";
+    font-size: 35px;
+    color: gold;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.69);
+    border-radius: 50px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    border: 2px rgb(245, 0, 255);
+    border-style: dashed;
+
+}
+
+.skills h4 {
+    font-size: 50px;
+
+
+}
+
+
+
+.list {
+
+    padding: 0px;
+}
+
+
+.list p {
+    font-family: cursive;
+    color: #ffffff;
+    font-size: 30px;
+    margin: auto;
+    border-bottom: 2px rgba(255, 255, 255, 0.58);
+    border-bottom-style: dotted;
+
+
+}
+
+.list li {
+    font-family: "oswald";
+    color: #ffee26;
+    font-size: 20px;
+    list-style: none;
+    padding: 4px;
+
+
+}
+
+.fotoset {
+
+    font-size: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+/*Медиазапросs*/
+
+
+@media (min-width:993px) {
+
+    .foto-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -300px;
     }
 
 
 
 
 
-    .animation {
 
-        color: #ffcd45;
-    }
+}
 
-    .dynamic {
-    color:aqua;
-
-
-    }
-
-    .four {
-
-        color: #FFDA58;
-    }
-
-
-    .happy {
-
-
-        color: #B4FF55;
-    }
-
-
-
-
-
-    /*Медиазапросs*/
-
-
-    @media (min-width:993px) {
-
-        .foto-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: -300px;
-        }
-
-        
-    }
-    @media (max-width:767px) {
+@media (max-width:767px) {
 
 
     .mycite {
@@ -341,80 +400,98 @@ body {
         font-size: 17px;
 
     }
-        
-        
-    }
 
-
-
-    @media (min-width:1200px) {
-
-        .foto-box img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-            object-position: -220px;
-
-
-
-
-        }
-
+    .list p {
+        color: #ffffff;
+        font-size: 25px;
+        margin: auto;
 
     }
 
-    @media screen and (max-width: 500px) {
-
-        .title-name {
-            display: flex;
-            justify-content: center;
-            font-size: 115px;
-
-
-        }
-
-        .title-surname {
-            font-size: 150px;
-            display: flex;
-            justify-content: center;
-            margin-top: -85px;
-
-        }
-
-        .present-title {
-
-            font-size: 28px;
-
-        }
 
 
 
-        .main-title {
-            height: 800px;
-        }
+    .list li {
 
-        .portfolio-title {
+        color: #ffee26;
+        font-size: 17px;
+        list-style: none;
 
-            font-size: 35px;
+    }
 
-        }
 
+}
+
+
+
+@media (min-width:1200px) {
+
+    .foto-box img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: -220px;
 
 
 
 
     }
 
-    @media (min-width:1900px) {
 
-        .main-title {
-            padding-bottom: 240px;
-        }
+}
 
-        .my-block-one {
-            margin-top: 10%;
-        }
+@media screen and (max-width: 500px) {
+
+    .title-name {
+        display: flex;
+        justify-content: center;
+        font-size: 115px;
+
+
     }
+
+    .title-surname {
+        font-size: 150px;
+        display: flex;
+        justify-content: center;
+        margin-top: -85px;
+
+    }
+
+    .present-title {
+
+        font-size: 28px;
+
+    }
+
+
+
+    .main-title {
+        height: 800px;
+    }
+
+    .portfolio-title {
+
+        font-size: 35px;
+
+    }
+
+
+
+
+
+}
+
+@media (min-width:1900px) {
+
+    .main-title {
+        padding-bottom: 240px;
+    }
+
+    .my-block-one {
+        margin-top: 10%;
+    }
+}
 
 
 
@@ -439,5 +516,6 @@ body {
     .ava {
         display: none;
     }
+
 
 }
