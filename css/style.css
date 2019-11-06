@@ -338,12 +338,20 @@ body {
             height: 100%;
             object-fit: cover;
             object-position: -300px;
-
-
-
         }
 
+        
+    }
+    @media (max-width:767px) {
 
+
+    .mycite {
+
+        font-size: 17px;
+
+    }
+        
+        
     }
 
 
