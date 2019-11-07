@@ -78,7 +78,7 @@ body {
 .row1 {
     background-color: rgba(159, 159, 159, 0.15);
     border-radius: 40px;
-    border: 2px solid rgba(255, 194, 194, 0.24);
+ 
 }
 
 .nickname {
@@ -216,7 +216,7 @@ body {
 
 /*Текст cверху цитаты*/
 .about-square {
-    background-color: rgba(255, 252, 252, 0.1);
+    background-color: rgba(0, 0, 0, 0.42);
     border-radius: 20px;
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
@@ -288,11 +288,7 @@ body {
 
 }
 
-.dynamic {
-    color: aqua;
 
-
-}
 
 .four {
 
@@ -309,71 +305,98 @@ body {
 /*Что я умею*/
 
 .skills {
-    font-family: "franklin gothic heavy";
-    font-size: 35px;
-    color: gold;
-    text-align: center;
-    background-color: rgba(0, 0, 0, 0.69);
-    border-radius: 50px;
-    margin-top: 20px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 500px;
-    border: 2px rgb(245, 0, 255);
-    border-style: dashed;
+
+    width: 100%;
 
 }
 
-.skills h4 {
+.skills-title {
+
+    color: #fff;
     font-size: 50px;
-
+    text-align: center;
 
 }
 
+.indent {
 
-
-.list {
 
     padding: 0px;
+    background-color: rgba(0, 0, 0, 0.58);
+    border-radius: 20px;
+
+    margin-left: auto;
+    margin-right: auto;
+
 }
 
 
-.list p {
-    font-family: cursive;
-    color: #ffffff;
-    font-size: 30px;
+
+.photoset {
+    text-align: center;
     margin: auto;
-    border-bottom: 2px rgba(255, 255, 255, 0.58);
-    border-bottom-style: dotted;
-
-
-}
-
-.list li {
-    font-family: "oswald";
-    color: #ffee26;
-    font-size: 20px;
-    list-style: none;
-    padding: 4px;
-
-
-}
-
-.fotoset {
-
-    font-size: 30px;
-
+    color: #FFC700;
+    font-size: 35px;
 }
 
 
+.photoset-item-foto {
+    color: #fff;
+    font-size: 17px;
+    border-left: 2px solid;
+    padding-top: 10px;
+}
+
+.photoset-item-foto ul {
+    list-style: square;
+}
+.photoset-item-video ul {
+    list-style: square;
+}
+
+.photoset-item-video {
+    color: #fff;
+    font-size: 17px;
+    border-left: 2px solid;
+    padding-top: 10px;
 
 
-
+}
 
 
 
 
 /*Медиазапросs*/
+
+@media(max-width:991px) {
+
+
+    .photoset-item-foto {
+        color: #fff;
+        font-size: 17px;
+        border: none;
+        padding-top: 0px;
+    }
+
+    .photoset-item-video {
+        color: #fff;
+        font-size: 17px;
+        border: none;
+        padding-top: 0px;
+
+
+    }
+
+
+
+
+
+
+}
+
+
+
+
 
 
 @media (min-width:993px) {
@@ -384,11 +407,6 @@ body {
         object-fit: cover;
         object-position: -300px;
     }
-
-
-
-
-
 
 }
 
@@ -420,6 +438,8 @@ body {
     }
 
 
+
+
 }
 
 
@@ -431,11 +451,9 @@ body {
         height: 100%;
         object-fit: cover;
         object-position: -220px;
-
-
-
-
     }
+
+
 
 
 }
@@ -480,6 +498,8 @@ body {
 
 
 
+
+
 }
 
 @media (min-width:1900px) {
@@ -515,7 +535,20 @@ body {
 
     .ava {
         display: none;
+
     }
 
+    
+.indent {
+
+    margin-top: 10px;
+
+}
+    
+
+    
+    
+    
+    
 
 }
