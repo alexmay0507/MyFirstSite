@@ -9,7 +9,11 @@
 }
 
 body {
-    background-color: #4e4e4e;
+
+    background-color: #0D0D0D;
+    background-image: url(../img/bg/bg_work.jpg);
+    background-repeat: repeat;
+    background-size: contain;
     font-family: 'Oswald', sans-serif;
 
 
@@ -78,7 +82,7 @@ body {
 .row1 {
     background-color: rgba(159, 159, 159, 0.15);
     border-radius: 40px;
- 
+
 }
 
 .nickname {
@@ -351,6 +355,7 @@ body {
 .photoset-item-foto ul {
     list-style: square;
 }
+
 .photoset-item-video ul {
     list-style: square;
 }
@@ -365,11 +370,129 @@ body {
 }
 
 
+/*Программы в которых я рабаю*/
+.software {
+    margin: auto;
+    width: 100%;
+}
+
+.software p {
+    display: inline-block;
+
+}
+
+.software-title {
+
+    font-family: "oswald", sans-serif;
+    font-size: 35px;
+    color: #FFC700;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.software img {
+    height: 80px;
+    margin: auto;
+
+}
+
+.bg-soft {
+
+    height: 90px;
+
+}
+
+
+.bg-effects {
+
+    height: 80px;
+    padding-bottom: 0px;
+
+}
+
+.bg {
+    margin: auto;
+    margin-bottom: 100px;
+
+}
+
+.bgprem {
+
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 80px;
+    width: 490px;
+    color: #fff;
+    border-radius: 15px;
+
+
+}
+
+.bgeff {
+
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 80px;
+    width: 490px;
+    color: #fff;
+    border-radius: 15px;
+
+}
+
+.bglight {
+
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 80px;
+    width: 490px;
+    color: #fff;
+    border-radius: 15px;
+
+}
+
+.bgphtp {
+
+    background-color: rgba(0, 0, 0, 0.63);
+    height: 80px;
+    width: 490px;
+    color: #ffffff;
+    border-radius: 15px;
+}
+
+.premiere {
+
+    color: #E579FF;
+}
+
+
+.effects {
+
+    color: #D8A1FF;
+}
+
+.photoshop {
+
+    color: #31C5F0;
+}
+
+.lightroom {
+
+    color: #AAD1EB;
+}
+
+
 
 
 /*Медиазапросs*/
 
 @media(max-width:991px) {
+    .about-bg {
+        background-image: url(../img/bg/bg_work.jpg);
+        background-repeat: repeat-y;
+        background-size: contain;
+
+    }
+
 
 
     .photoset-item-foto {
@@ -387,9 +510,6 @@ body {
 
 
     }
-
-
-
 
 
 
@@ -441,7 +561,16 @@ body {
 
 
 
+
+
 }
+
+
+
+
+
+
+
 
 
 
@@ -497,11 +626,8 @@ body {
 
 
 
-
-
-
-
 }
+
 
 @media (min-width:1900px) {
 
@@ -539,19 +665,144 @@ body {
 
     }
 
-    
-.indent {
 
-    margin-top: 10px;
-    margin-left: 50px;
-    margin-right: 50px;
+    .indent {
+
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+
+    }
+
+
+
 
 }
-    
 
-    
-    
-    
-    
+@media (max-width:990px) {
+
+    .bg {
+        display: block;
+        margin: auto;
+
+    }
+
+
+
+    .software img {
+
+        height: 50px;
+        width: 150px;
+    }
+
+    .bgprem {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+
+
+    }
+
+    .bgeff {
+        display: inline-block;
+
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+
+    }
+
+    .bglight {
+
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+
+    }
+
+    .bgphtp {
+
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+
+
+}
+
+@media (max-width:585px) {
+
+
+
+    .software-title {
+
+        font-size: 25px;
+
+    }
+
+
+    .software img {
+
+        height: 50px;
+        width: 150px;
+    }
+
+    .software img {
+        height: 50px;
+        width: 150px;
+    }
+
+    .bgprem {
+        display: inline-block;
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+
+
+    }
+
+    .bgeff {
+        display: inline-block;
+
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+
+    }
+
+    .bglight {
+
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+
+    }
+
+    .bgphtp {
+
+        background-color: rgba(0, 0, 0, 0.63);
+        height: 0px;
+        display: flex;
+        color: #fff;
+        border-radius: 15px;
+    }
+
+
 
 }
