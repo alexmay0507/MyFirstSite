@@ -140,9 +140,8 @@ body {
 .main-bg {
     background: #414141;
     background-image: url(../img/bg/bg_2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 50% -700px;
+    background-repeat: repeat;
+    background-size: 115%;
 
 
     /*    Портфолио*/
@@ -197,10 +196,9 @@ body {
 
 .about-bg {
     background-image: url(../img/bg/bg_work.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
     background-position: center;
-    height: 1500px;
 
 }
 
@@ -398,14 +396,14 @@ body {
 
 .bg-soft {
 
-    height: 90px;
+    height: 50px;
 
 }
 
 
 .bg-effects {
 
-    height: 80px;
+    height: 50px;
     padding-bottom: 0px;
 
 }
@@ -483,12 +481,6 @@ body {
 /*Медиазапросs*/
 
 @media(max-width:991px) {
-    .about-bg {
-        background-image: url(../img/bg/bg_work.jpg);
-        background-repeat: repeat-y;
-        background-size: contain;
-
-    }
 
 
 
@@ -692,6 +684,8 @@ body {
         width: 150px;
     }
 
+
+
     .bgprem {
         display: inline-block;
         background-color: rgba(0, 0, 0, 0.63);
@@ -699,6 +693,7 @@ body {
         display: flex;
         color: #fff;
         border-radius: 15px;
+        font-size:
 
 
     }
