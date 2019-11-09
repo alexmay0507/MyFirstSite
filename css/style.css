@@ -300,7 +300,7 @@ body {
 .happy {
 
 
-    color: #B4FF55;
+    color: #7EFF8B;
 }
 
 /*Что я умею*/
@@ -705,30 +705,28 @@ body {
 
 
     .software {
-        
+
         display: none;
-    
+
+    }
+
+
+    .indent {
+
+
+        padding: 0px;
+        background-color: rgba(0, 0, 0, 0.58);
+        border-radius: 20px;
+        margin: auto;
+        margin: 10px;
+
+    }
+
+
+
 }
 
-
-.indent {
-
-
-    padding: 0px;
-    background-color: rgba(0, 0, 0, 0.58);
-    border-radius: 20px;
-    margin: auto;
-    margin: 10px;
-
-}
-    
-    
-    
-}
-    
-.imgblock
-
-@media (min-width:1900px) {
+.imgblock @media (min-width:1900px) {
 
     .main-title {
         padding-bottom: 240px;
@@ -741,9 +739,9 @@ body {
 
 
 .imgblock {
-    
+
     display: inline-block;
-    
+
 }
 
 
