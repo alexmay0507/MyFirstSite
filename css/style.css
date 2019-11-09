@@ -24,7 +24,7 @@ body {
     background-image: url(../img/bg/background_main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 1100px;
+    
 }
 
 /*Меню*/
@@ -143,7 +143,7 @@ body {
 .main-bg {
     background: #414141;
     background-image: url(../img/bg/bg_2.jpg);
-    background-repeat: repeat;
+    background-repeat:repeat;
     background-size: 115%;
 
 
@@ -727,7 +727,8 @@ body {
 
 }
 
-.imgblock @media (min-width:1900px) {
+
+@media (min-width:1600px) {
 
     .main-title {
         padding-bottom: 240px;
