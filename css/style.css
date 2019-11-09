@@ -24,6 +24,7 @@ body {
     background-image: url(../img/bg/background_main.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    height: 1100px;
 }
 
 /*Меню*/
