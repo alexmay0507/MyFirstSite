@@ -1,32 +1,32 @@
 @font-face {
-    font-family: 'Flange BQ'sans-serif;
-    src: url(../fonts/FlangeBQ.TTF)
+    font-family: 'Flange BQ', sans-serif;
+    src: url(../fonts/FlangeBQ.TTF);
 }
 
 @font-face {
-    font-family: 'Franklin Gothic Heavy'sans-serif;
-    src: url(../fonts/FTLTLT.TTF)
+    font-family: 'Franklin Gothic Heavy', sans-serif;
+    src: url(../fonts/FTLTLT.TTF);
 }
 
 body {
     background-color: #141414;
-    font-family: 'Oswald', sans-serif
+    font-family: 'Oswald', sans-serif;
 }
 
 .main-title {
     background-image: url(../img/bg/background_main.jpg);
     background-repeat: no-repeat;
-    background-size: cover
+    background-size: cover;
 }
 
 .menu-list {
     margin: auto;
-    padding-top: 20px
+    padding-top: 20px;
 }
 
 .menu-list li {
     padding: 0 70px;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .menu-list a {
@@ -39,20 +39,20 @@ body {
 
 .show-menu {
     text-align: right;
-    margin-right: -30px
+    margin-right: -30px;
 }
 
 .burger {
-    background-color: #fff
+    background-color: #fff;
 }
 
 .my-block-one {
     padding-top: 80px;
-    padding-bottom: 200px
+    padding-bottom: 200px;
 }
 
 .ava {
-    height: 400px
+    height: 400px;
 }
 
 .row1 {
@@ -64,43 +64,43 @@ body {
     font-family: "Flange BQ";
     font-size: 130px;
     font-style: normal;
-    color: #FFC700
+    color: #FFC700;
 }
 
 .title-name {
     display: flex;
     justify-content: center;
-    font-size: 150px
+    font-size: 150px;
 }
 
 .title-surname {
     font-size: 200px;
     display: flex;
     justify-content: center;
-    margin-top: -120px
+    margin-top: -120px;
 }
 
 .present {
     display: flex;
     font-family: 'Franklin Gothic Heavy';
     justify-content: center;
-    margin-top: -25px
+    margin-top: -25px;
 }
 
 .present-title {
-    font-size: 40px
+    font-size: 40px;
 }
 
 .foto-text {
-    color: #D66969
+    color: #D66969;
 }
 
 .union-text {
-    color: #9FD3CD
+    color: #9FD3CD;
 }
 
 .design-text {
-    color: #CA89E0
+    color: #CA89E0;
 }
 
 .main-bg {
@@ -118,25 +118,25 @@ body {
     font-size: 50px;
     color: #fff;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .mycrsl {
     height: 100% !important;
     width: 100%;
     margin: auto;
-    border-radius: 40px
+    border-radius: 40px;
 }
 
 .video {
-    padding: 10px
+    padding: 10px;
 }
 
 .about-bg {
     margin: auto;
     width: 100%;
     background-color: #414141;
-    min-height: 1000px
+    min-height: 1000px;
 }
 
 .about-title {
@@ -147,14 +147,14 @@ body {
     font-size: 50px;
     color: #fff;
     padding-top: 20px;
-    padding-bottom: 20px
+    padding-bottom: 20px;
 }
 
 .about-bg {
     background-image: url(../img/bg/work-933061.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center
+    background-position: center;
 }
 
 .foto-box img {
@@ -162,7 +162,7 @@ body {
     padding-bottom: 15px;
     border-radius: 40px;
     object-fit: cover;
-    object-position: center
+    object-position: center;
 }
 
 .about-square {
@@ -171,49 +171,49 @@ body {
     font-family: 'Oswald', sans-serif;
     font-weight: 600;
     color: #fff;
-    max-width: 800px
+    max-width: 800px;
 }
 
 .text-about {
     display: inline-block;
-    text-align: center
+    text-align: center;
 }
 
 .about-name {
-    font-size: 25px
+    font-size: 25px;
 }
 
 .name-color {
-    padding-left: 2px
+    padding-left: 2px;
 }
 
 .about-old {
-    font-size: 20px
+    font-size: 20px;
 }
 
 .about-1 {
-    font-size: 19px
+    font-size: 19px;
 }
 
 .five {
     padding-left: 2px;
     padding-right: 2px;
-    color: #FFDA58
+    color: #FFDA58;
 }
 
 .about-2 {
-    font-size: 19px
+    font-size: 19px;
 }
 
 .about-3 {
     font-size: 19px;
     padding-bottom: 12px;
     border-bottom: 2px solid;
-    border-bottom-style: dashed
+    border-bottom-style: dashed;
 }
 
 .alive {
-    color: #7EFF8B
+    color: #7EFF8B;
 }
 
 .mycite {
@@ -222,25 +222,25 @@ body {
     font-style: italic;
     font-weight: 300;
     font-size: 20px;
-    margin: auto
+    margin: auto;
 }
 
 .four {
-    color: #FFDA58
+    color: #FFDA58;
 }
 
 .happy {
-    color: #7EFF8B
+    color: #7EFF8B;
 }
 
 .skills {
-    width: 100%
+    width: 100%;
 }
 
 .skills-title {
     color: #fff;
     font-size: 50px;
-    text-align: center
+    text-align: center;
 }
 
 .indent {
@@ -248,45 +248,45 @@ body {
     background-color: rgba(0, 0, 0, 0.58);
     border-radius: 20px;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
 }
 
 .photoset {
     text-align: center;
     margin: auto;
     color: #FFC700;
-    font-size: 35px
+    font-size: 35px;
 }
 
 .photoset-item-foto {
     color: #fff;
     font-size: 17px;
     border-left: 2px solid;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 .photoset-item-foto ul {
-    list-style: square
+    list-style: square;
 }
 
 .photoset-item-video ul {
-    list-style: square
+    list-style: square;
 }
 
 .photoset-item-video {
     color: #fff;
     font-size: 17px;
     border-left: 2px solid;
-    padding-top: 10px
+    padding-top: 10px;
 }
 
 .software {
     margin: auto;
-    width: 100%
+    width: 100%;
 }
 
 .software p {
-    display: inline-block
+    display: inline-block;
 }
 
 .software-title {
@@ -298,28 +298,28 @@ body {
     margin-bottom: 30px;
     margin-top: 30px;
     border-radius: 15px;
-    padding: 10px
+    padding: 10px;
 }
 
 .software-title h4 {
     background-color: rgba(0, 0, 0, 0.6);
     padding: 10px;
-    border-radius: 10px
+    border-radius: 10px;
 }
 
 .software img {
     height: 80px;
-    margin: auto
+    margin: auto;
 }
 
 .bg-soft {
-    height: 50px
+    height: 50px;
 }
 
 .bg-effects {
     height: 50px;
     padding-bottom: 0;
-    margin-bottom: 100px
+    margin-bottom: 100px;
 }
 
 .bg {
@@ -332,7 +332,7 @@ body {
     height: 80px;
     width: 490px;
     color: #fff;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .bgeff {
@@ -340,7 +340,7 @@ body {
     height: 80px;
     width: 490px;
     color: #fff;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .bglight {
@@ -348,7 +348,7 @@ body {
     height: 80px;
     width: 490px;
     color: #fff;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .bgphtp {
@@ -356,23 +356,23 @@ body {
     height: 80px;
     width: 490px;
     color: #fff;
-    border-radius: 15px
+    border-radius: 15px;
 }
 
 .premiere {
-    color: #E579FF
+    color: #E579FF;
 }
 
 .effects {
-    color: #D8A1FF
+    color: #D8A1FF;
 }
 
 .photoshop {
-    color: #31C5F0
+    color: #31C5F0;
 }
 
 .lightroom {
-    color: #AAD1EB
+    color: #AAD1EB;
 }
 
 footer {
@@ -388,20 +388,20 @@ footer {
     justify-content: center;
     color: #fff;
     font-family: cursive;
-    font-size: 25px
+    font-size: 25px;
 }
 
 .contacts-text h4 {
-    border-bottom: 2px solid
+    border-bottom: 2px solid;
 }
 
 .contacts-vk {
     display: flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .contacts-vk img {
-    height: 40px
+    height: 40px;
 }
 
 .contacts-call {
@@ -409,12 +409,12 @@ footer {
     justify-content: center;
     font-size: 20px;
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
 
 .contacts-call a {
     text-decoration: none;
-    color: #fdfdfd
+    color: #fdfdfd;
 }
 
 .contacts-mail {
@@ -422,14 +422,14 @@ footer {
     justify-content: center;
     font-size: 20px;
     text-decoration: none;
-    color: #fff
+    color: #fff;
 }
 
 .contacts-mail a {
     text-decoration: none;
     color: #fdfdfd;
     padding-bottom: 5px;
-    border-bottom: 2px solid
+    border-bottom: 2px solid;
 }
 
 .contacts-name {
@@ -437,7 +437,7 @@ footer {
     justify-content: center;
     font-size: 16px;
     text-decoration: none;
-    color: rgba(255, 255, 255, 0.65)
+    color: rgba(255, 255, 255, 0.65);
 }
 
 @media (max-width:715px) {
@@ -446,7 +446,7 @@ footer {
         justify-content: center;
         color: #fff;
         font-family: cursive;
-        font-size: 18px
+        font-size: 18px;
     }
 }
 
@@ -455,14 +455,14 @@ footer {
         color: #fff;
         font-size: 17px;
         border: none;
-        padding-top: 0
+        padding-top: 0;
     }
 
     .photoset-item-video {
         color: #fff;
         font-size: 17px;
         border: none;
-        padding-top: 0
+        padding-top: 0;
     }
 }
 
@@ -471,19 +471,19 @@ footer {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: -300px
+        object-position: -300px;
     }
 }
 
 @media (max-width:993px) {
     .bg {
         display: block;
-        margin: auto
+        margin: auto;
     }
 
     .software img {
         height: 50px;
-        width: 150px
+        width: 150px;
     }
 
     .bgprem {
@@ -491,7 +491,7 @@ footer {
         background-color: rgba(0, 0, 0, 0);
         height: 50px;
         display: flex;
-        color: #fff
+        color: #fff;
     }
 
     .bgeff {
@@ -500,7 +500,7 @@ footer {
         height: 50px;
         display: flex;
         color: #fff;
-        border-radius: 15px
+        border-radius: 15px;
     }
 
     .bglight {
@@ -508,7 +508,7 @@ footer {
         height: 50px;
         display: flex;
         color: #fff;
-        border-radius: 15px
+        border-radius: 15px;
     }
 
     .bgphtp {
@@ -516,37 +516,37 @@ footer {
         height: 50px;
         display: flex;
         color: #fff;
-        border-radius: 15px
+        border-radius: 15px;
     }
 
     .bg-effects {
         height: 50px;
         padding-bottom: 0;
-        margin-bottom: 10px
+        margin-bottom: 10px;
     }
 
     .bg-soft {
         height: 50px;
         padding-bottom: 0;
-        margin-bottom: 10px
+        margin-bottom: 10px;
     }
 }
 
 @media (max-width:767px) {
     .mycite {
-        font-size: 17px
+        font-size: 17px;
     }
 
     .list p {
         color: #fff;
         font-size: 25px;
-        margin: auto
+        margin: auto;
     }
 
     .list li {
         color: #ffee26;
         font-size: 17px;
-        list-style: none
+        list-style: none;
     }
 }
 
@@ -555,7 +555,7 @@ footer {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        object-position: -220px
+        object-position: -220px;
     }
 }
 
@@ -563,30 +563,30 @@ footer {
     .title-name {
         display: flex;
         justify-content: center;
-        font-size: 115px
+        font-size: 115px;
     }
 
     .title-surname {
         font-size: 150px;
         display: flex;
         justify-content: center;
-        margin-top: -85px
+        margin-top: -85px;
     }
 
     .present-title {
-        font-size: 28px
+        font-size: 28px;
     }
 
     .main-title {
-        height: 800px
+        height: 800px;
     }
 
     .portfolio-title {
-        font-size: 35px
+        font-size: 35px;
     }
 
     .software {
-        display: none
+        display: none;
     }
 
     .indent {
@@ -594,13 +594,13 @@ footer {
         background-color: rgba(0, 0, 0, 0.58);
         border-radius: 20px;
         margin: auto;
-        margin: 10px
+        margin: 10px;
     }
 }
 
 @media (min-width:1600px) {
     .main-title {
-        padding-bottom: 240px
+        padding-bottom: 240px;
     }
 
     .my-block-one {
@@ -609,37 +609,37 @@ footer {
 }
 
 .imgblock {
-    display: inline-block
+    display: inline-block;
 }
 
 @media (min-width:1080px) {
     .main-title {
-        padding-bottom: 270px
+        padding-bottom: 270px;
     }
 }
 
 @media (max-width:575px) {
     .ava {
-        display: none
+        display: none;
     }
 
     .indent {
         margin-top: 10px;
         margin-left: 50px;
-        margin-right: 50px
+        margin-right: 50px;
     }
 }
 
 @media (max-width:585px) {
     .software-title {
-        font-size: 25px
+        font-size: 25px;
     }
 
     .software img {
         height: 50px;
         width: 150px;
         height: 50px;
-        width: 150px
+        width: 150px;
     }
 
     .bgprem {
@@ -648,7 +648,7 @@ footer {
         height: 0;
         display: flex;
         color: #fff;
-        border-radius: 15px
+        border-radius: 15px;
     }
 
     .bgeff {
@@ -657,7 +657,7 @@ footer {
         height: 0;
         display: flex;
         color: #fff;
-        border-radius: 15px
+        border-radius: 15px;
     }
 
     .bglight {
@@ -673,15 +673,15 @@ footer {
         height: 0;
         display: flex;
         color: #fff;
-        border-radius: 15px
+        border-radius: 15px;
     }
 
     footer {
-        margin-top: 50px
+        margin-top: 50px;
     }
 
     .contacts-text {
         display: none;
-        font-size: 15px
+        font-size: 15px;
     }
 }
