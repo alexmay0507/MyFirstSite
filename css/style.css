@@ -61,7 +61,7 @@ body {
 }
 
 .nickname {
-    font-family: "Flange BQ";
+    font-family: "Flange BQ","Oswald", sans-serif;
     font-size: 130px;
     font-style: normal;
     color: #FFC700;
