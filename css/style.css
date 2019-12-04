@@ -82,7 +82,7 @@ body {
 
 .present {
     display: flex;
-    font-family: 'Franklin Gothic Heavy',serif;
+    font-family: 'Franklin Gothic Heavy',fantasy;
     justify-content: center;
     margin-top: -25px;
 }
