@@ -106,8 +106,8 @@ body {
 .main-bg {
     background: #414141;
     background-image: url(../img/bg/bg_gray.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-repeat: repeat;
+    background-size: contain;
 }
 
 .portfolio-title {
